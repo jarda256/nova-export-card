@@ -1,6 +1,6 @@
 {
-    "name": "jarda256sparktech/export-card",
-    "description": "A Laravel Nova card.",
+    "name": "jarda256/export-card",
+    "description": "A Laravel Nova card for exporting.",
     "keywords": [
         "laravel",
         "nova"
@@ -11,13 +11,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Jarda256sparktech\\ExportCard\\": "src/"
+            "jarda256\\NovaExportCard\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "Jaroslav Stoklasa",
+            "email": "stoklasa.jaroslav@icloud.com",
+            "role": "Developer"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
-                "Jarda256sparktech\\ExportCard\\CardServiceProvider"
+                "jarda256\\NovaExportCard\\CardServiceProvider"
             ]
         }
     },
