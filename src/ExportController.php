@@ -1,6 +1,6 @@
 <?php
 
-namespace Jarda256sparktech\ExportCard;
+namespace jarda256\NovaExportCard;
 
 
 use Laravel\Nova\Http\Requests\NovaRequest;

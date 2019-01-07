@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 //     //
 // });
 
-Route::get('/endpoint/{resource}', \Jarda256sparktech\ExportCard\ExportController::class.'@handle');
+Route::get('/endpoint/{resource}', \jarda256\ExportCard\ExportController::class.'@handle');

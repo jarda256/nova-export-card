@@ -1,10 +1,10 @@
 <?php
 
-namespace Jarda256sparktech\ExportCard;
+namespace jarda256\NovaExportCard;
 
 use Laravel\Nova\Card;
 
-class ExportCard extends Card
+class NovaExportCard extends Card
 {
     /**
      * The width of the card (1/3, 1/2, or full).
