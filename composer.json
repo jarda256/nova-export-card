@@ -1,5 +1,5 @@
 {
-    "name": "jarda256/export-card",
+    "name": "jarda256/nova-export-card",
     "description": "A Laravel Nova card for exporting.",
     "keywords": [
         "laravel",
